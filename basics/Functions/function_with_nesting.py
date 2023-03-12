@@ -2,7 +2,7 @@
 
 def beep_boop_escape():
     user = input("What lies before us?")
-    if user == "a large boulder":
+    if user.lower() == "a large boulder":
         print("It's time to run!")
 
     else:
