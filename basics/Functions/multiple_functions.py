@@ -4,7 +4,7 @@ def display_ladder(steps):
         print(chr(42)+chr(42)+chr(42))
     print(chr(124) + chr(32) + chr(124))
 def create_ladder():
-    print("Enter de number of steps: ")
+    print("How many steps remain? ")
     user_steps = int(input())
     display_ladder(user_steps)
 
