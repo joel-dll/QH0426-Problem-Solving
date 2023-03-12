@@ -5,7 +5,7 @@ while True:
         print("You do not smell so bad today!")
     elif opt == 2:
         h = float(input("Enter height: "))
-        b= float(input("Enter the base: "))
+        b = float(input("Enter the base: "))
         print(f"The area of this rectangle is {h*b} cm^2")
     elif opt == 3:
         h = float(input("Enter height: "))
