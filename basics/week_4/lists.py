@@ -47,7 +47,7 @@ print(bleh)
 del bleh[7]
 print(bleh)
 #Check a list for particular data type/traverse the list
-lista = ["Fred",56,True,99.4,"Potato",True,82]
+lista = ["Fredy",56,True,99.4,"Potato",True,82]
 for item in lista:
     sum = 0
     for item in lista:

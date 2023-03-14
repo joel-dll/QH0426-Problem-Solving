@@ -12,8 +12,8 @@ print(x[1])
 #Concatenate Tuple
 z = x + y
 print(z)
-print(y)
 print(x)
+print(y)
 
 # Using min and max fuctions
 

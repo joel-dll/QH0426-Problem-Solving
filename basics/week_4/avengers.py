@@ -21,7 +21,7 @@ def run():
             removing(avengers)
         elif opt == 3:
             printing(avengers)
-        elif opt== 4:
+        elif opt == 4:
             break
         else:
             print("Sort yourself out!")
