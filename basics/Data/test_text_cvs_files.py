@@ -1,7 +1,9 @@
 import os
 # MOVING FROM ONE FOLDER TO ANOTHER
 path = os.getcwd()
-print(f"My path is {path}")
+print(f"\n\nMy path is {path}")
+path = os.chdir('./staff/')
+
 
 
 #path=os.getcwd()
@@ -9,10 +11,11 @@ print(f"My path is {path}")
 #os.chdir('../demos/')
 
 
-with open("data_.txt", 'r') as file:  #r(read) is a method
+with open("data.txt", 'r') as file:
     for data in file:
         data = data.rstrip("\n")
         fname, lname, depart, loc=data.split(', ')
+        print("\n...................\n")
         print("Firstname: ", fname)
         print("Lastname: ", lname)
         print("Department: ", depart)
