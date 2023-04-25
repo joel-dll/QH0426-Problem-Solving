@@ -55,7 +55,7 @@ def run():
     ax2.pie(ms.values(), labels=ms.keys(),autopct = "%1.1f%%")
     ax2.set_title("Movie Preferences")
 
-    ax3.pies(ss.values(), labels=ss.keys(), autopct = "%.f%%")
+    ax3.pie(ss.values(), labels=ss.keys(), autopct = "%.f%%")
     ax3.set_title("Music Preferences")
 
     ax4.bar(["MM","DD"], mm_vs_dd(n))
