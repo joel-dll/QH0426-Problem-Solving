@@ -16,3 +16,7 @@ ax[0,0].yaxis.set_minor_locator(MultipleLocator(5))
 ax[0,0].yaxis.set_major_locator(MultipleLocator(10))
 ax[0,0].xaxis.set_minor_locator(MultipleLocator(0.5))
 ax[0,0].xaxis.set_major_locator(MultipleLocator(2))
+
+ax[2,1].plot(y,x,"y^--")
+ax[1,1].bar(x,y, color = 'g')
+plt.show()
