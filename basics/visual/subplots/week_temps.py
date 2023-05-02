@@ -21,7 +21,7 @@ def run():
     ax2 = fig.add_subplot(2,1,2)
 
     ax1.plot(range(1,8), data["week1"], "r>--")
-    ax2.plot(range(1, 8), data["week2"], "bx-") # b =color, x simbol on chart
+    ax2.plot(range(1, 8), data["week2"], "bx-") # b =color, x symbol on chart
 
     plt.show()
 
