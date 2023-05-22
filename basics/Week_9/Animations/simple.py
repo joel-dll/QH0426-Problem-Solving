@@ -13,7 +13,7 @@ def animate(f):
 
     ax.plot(f,f,"o"+color)
 def run():
-    karen = a.FuncAnimation(fig, animate, frames=10, interval=100)
+    karen = a.FuncAnimation(fig, animate, frames=10, interval=1000)
     plt.show()
 
 
